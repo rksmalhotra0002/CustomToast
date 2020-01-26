@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CustomToast</string>
+    <string name="simple_toast">Simple Toast</string>
+    <string name="customtoast">CustomToast</string>
+    <string name="this_is_custom_toast">this is custom toast</string>
+</resources>
