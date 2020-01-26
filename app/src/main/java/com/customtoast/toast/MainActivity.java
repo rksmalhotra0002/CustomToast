@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.customtoast.R;
 
 public class MainActivity extends AppCompatActivity {
+
 private Button btn_customtoast,btn_simpletoast;
 
     @Override
@@ -40,7 +41,9 @@ private Button btn_customtoast,btn_simpletoast;
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(MainActivity.this,"Simple Toast",Toast.LENGTH_LONG).show();
+               Toast toast= Toast.makeText(MainActivity.this,"Simple Toast",Toast.LENGTH_LONG);
+               toast.setGravity(Gravity.CENTER,0,330);
+               toast.show();
 
             }
         });
